@@ -48,10 +48,6 @@ Resources:
         - Ref: InstanceRole
   Instance:
     Type: AWS::EC2::Instance
-    CreationPolicy: 
-      ResourceSignal:
-        Timeout: PT30M
-        Count: 1
     Metadata:
       AWS::CloudFormation::Init:
         config:

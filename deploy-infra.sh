@@ -2,7 +2,7 @@
 
 STACK_NAME=awsbootstrap 
 REGION=us-east-1 
-CLI_PROFILE=default
+CLI_PROFILE=awsbootstrap
 
 EC2_INSTANCE_TYPE=t2.micro 
 
